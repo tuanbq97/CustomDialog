@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#de222f"
+    tools:context="com.example.tuangb.customdialog.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATEPICKER Dialog"
+            android:onClick="showDatePicker"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIMEPICKER Dialog"
+            android:onClick="showTimpickerDialog"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spiner Progress Dialog"
+            android:onClick="showSpinerProgress"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horizontal Progress Dialog"
+            android:onClick="showHorizontalProgress"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog"
+            android:onClick="showAlert"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomAlert Dialog"
+            android:onClick="showCustomAlert"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ListItem Dialog"
+            android:onClick="showListItem"/>
+
+    </LinearLayout>
+
+</ScrollView>
